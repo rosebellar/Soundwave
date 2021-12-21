@@ -214,7 +214,7 @@ footer {
 
   .contact-info {
     position: relative;
-    right: 50px;
+    left: 15px;
     font-size: 15px;
   }
 
@@ -231,7 +231,7 @@ footer {
 
   .social {
     position: relative;
-    left: 10px;
+    left: 40px;
   }
 
   .info-main-section {
