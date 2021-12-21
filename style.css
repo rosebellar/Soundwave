@@ -171,27 +171,28 @@ button {
     height: 85.7%;
     position: absolute;
     /*top: 140px;*/
-    top: 132px;
-    right: 0;
+    top: 195px;
+    right: 40px;
   }
 
   .home-main-section {
   }
 
   .home-main-text {
-    margin-top: 10px;
+    margin-top: 70px;
     position: relative;
+    font-size: 10px;
     top: 200px;
-    left: 300px;
+    left: 230px;
   }
   .home-main-text .title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .home-main-text .sub-title {
     font-size: 15px;
-    max-width: 200px;
-    font-size: 15px;
+    max-width: 120px;
+    font-size: 12px;
   }
 
   .discover-section {
@@ -201,9 +202,15 @@ button {
 
   .logo-image {
     width: 15%;
+    height: 15%;
   }
 
   h1 {
     font-size: 18px;
+  }
+
+  header {
+    margin: 0 auto;
+    padding: 0 0px;
   }
 }
