@@ -60,32 +60,41 @@ a {
   text-decoration: none;
 }
 
+.discover-section {
+  padding: 0 30px;
+}
+
 li :hover {
   color: #adadda;
 }
 
 .join-main-section {
   display: flex;
-  justify-content: space-between;
+  padding: 20px 60px;
+ /*justify-content: space-between;
   align-items: center;
   flex-grow: 1;
-  color: white;
+  color: white;*/
 }
 
 .join-text {
   font-size: 3.5em;
   font-weight: bold;
   margin: 0;
+  text-align: center;
+  
 }
 
 .accent-text {
   color: #bc3a80;
+  text-align: center;
+ 
 }
 
 .join-form {
   background-color: #202027;
-  width: 50vw;
-  max-width: 50%;
+  width: 80vw;
+  max-width: 80%;
   padding: 2rem 4rem;
   border-radius: 20px;
 }
@@ -115,4 +124,71 @@ li :hover {
 }
 .input-group input:focus {
     border-color: #596da0;   
+}
+
+footer {
+  position: relative;
+  top: 65px;
+}
+
+@media (max-width: 900px) {
+  header {
+    margin: 0 auto;
+    padding: 0 0px;
+  }
+
+  .logo-image {
+    width: 15%;
+    height: 15%;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+
+  .contact-info {
+    position: relative;
+    left: 35px;
+    font-size: 15px;
+  }
+
+  .social {
+    position: relative;
+    right: 10px;
+  }
+
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f1f20;
+    margin-top: 15px;
+  }
+
+
+  .join-main-section {
+    display: block;
+    margin-top: 5px !important;
+  }
+
+  .join-form {
+    width: 90vw;
+    max-width: 90%;
+    margin-top: 30px;
+    position: relative;
+    right: 25px; 
+    top: 60px; }
+
+    .join-text {
+      font-size: 4.0em;
+      margin-left: -70px;
+    }
+    
+    .accent-text {
+      margin-left: -25px;
+    }
+    
+    ul {
+      position: relative;
+      right: 80px;
+    }
 }

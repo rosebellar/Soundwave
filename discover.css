@@ -42,6 +42,7 @@ header .logo {
   height: fit-content;
   margin-top: 10px;
 }
+
 ul {
   position: relative;
   right: 60px;
@@ -77,6 +78,8 @@ ul.discovery {
   position: relative;
   right: 30px;
 }
+
+
 .discover-section {
   padding: 0 30px;
 }
