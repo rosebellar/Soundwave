@@ -10,7 +10,6 @@ body {
   /*min-height: 100vh;*/
 }
 
-
 .container {
   margin: 0 0;
   padding: 0 0;
@@ -51,8 +50,8 @@ nav ul {
 ul li {
   text-decoration: none;
   list-style: none;
-  color: white;
   align-items: center;
+  color: white;
   padding: 10px;
 }
 
@@ -145,6 +144,7 @@ button {
   left: 40vw;
   z-index: -1;
 }
+
 .home-page-circle-3 {
   position: absolute;
   overflow: hidden;
@@ -185,6 +185,7 @@ button {
     top: 200px;
     left: 230px;
   }
+
   .home-main-text .title {
     font-size: 20px;
   }
